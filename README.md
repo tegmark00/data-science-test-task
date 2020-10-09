@@ -25,12 +25,14 @@ In order to run model and install dependencies use these commands:
 3. Install dependencies
  - (venv) $ `pip install -r requrements.txt`
 
+## Download dataset, train model & predict masks 
+
 Now you can run scripts:
 
 4. Download and extract the dataset
  - (venv) $ `python getdataset.py`
 
-After script execution you'll see two folders in data with `test` and `train` data
+After script execution you'll see two folders in the data folder with `test` and `train` data
 
 `train` data containes images and its mask
 
