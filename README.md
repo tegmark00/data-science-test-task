@@ -52,5 +52,7 @@ Notice that model already trained. Model and weights located in `model` folder
 ## Other
 
 `config.py` -- defined some constants
+
 `model.py` -- loads model from `json file` and its `weights` from `model` folder
+
 `functions.py` -- functions to read images, masks, generate train batch
