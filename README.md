@@ -12,7 +12,7 @@ Model builded on the dataset which contains a large number of segmented nuclei i
 
 You may see model, data analys, etc in google colab notebook, located at `google-colab-notebooks` or just visit https://colab.research.google.com/drive/1k0V8bMGDUocoq4klF5YYF-TzSfJkGrr0?usp=sharing
 
-## How to install
+## How to install & run
 
 In order to run model and install dependencies use these commands:
 
@@ -28,7 +28,7 @@ In order to run model and install dependencies use these commands:
 Now you can run scripts:
 
 4. Download and extract the dataset
- - (venv) $ python getdataset.py
+ - (venv) $ `python getdataset.py`
 
 After script execution you'll see two folders in data with `test` and `train` data
 
@@ -36,10 +36,13 @@ After script execution you'll see two folders in data with `test` and `train` da
 
 `test` only images
 
-5. In order to predict masks for images in test folder, execute:
- - (venv) $ python predict_masks.py
+5. In order to predict masks for images in the test folder, execute:
+ - (venv) $ `python predict_masks.py`
+
+ Predicted masks for the test images has to appear in `predictions` folder
+
 
 6. If you want to train neural network, run:
- - (venv) $ python train.py
+ - (venv) $ `python train.py`
 
 Notice that model already trained. Model and weights located in `model` folder
